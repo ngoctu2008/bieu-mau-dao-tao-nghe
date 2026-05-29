@@ -1,0 +1,7 @@
+Ho_So_Da_Dien/
+word_templates/
+1. Danh sach lop hoc (cac loai) .xlsx
+Quan_Ly_Hoc_Vien.xlsx
+*.py
+*.pyc
+__pycache__/

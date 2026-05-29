@@ -1,0 +1,11 @@
+HƯỚNG DẪN SỬ DỤNG:
+
+1. Mở file "Quan_Ly_Hoc_Vien.xlsx" và điền thông tin:
+   - Sheet "MENU": Điền các thông tin lớp học (có sẵn menu thả xuống lấy từ sheet IDs).
+   - Sheet "Thông tin hoc sinh": Điền thông tin học sinh (có thể copy/paste). Các sheet khác như DSTN, Bảng tổng hợp điểm... sẽ tự động nhảy dữ liệu nhờ công thức Excel.
+
+2. Sau khi điền xong và lưu file Excel, chạy script "generate_docs.py" bằng Python:
+   Cài đặt thư viện yêu cầu: pip install openpyxl docxtpl
+   Chạy lệnh: python generate_docs.py
+
+3. Script sẽ đọc file Excel và tự động sinh ra các file Word (Quyết định, Phiếu học viên, Đơn học nghề) cho từng học sinh và lưu vào thư mục "Ho_So_Da_Dien" ở ngay ngang hàng.
