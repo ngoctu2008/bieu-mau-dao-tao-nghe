@@ -1,6 +1,7 @@
 HƯỚNG DẪN SỬ DỤNG:
 
 1. Mở file "Quan_Ly_Hoc_Vien.xlsx" và điền thông tin:
+   - File này hiện tại KHÔNG CÓ MACRO. Tôi đã chuyển sang dùng công thức Excel thuần, do đó bạn không còn lo ngại về vấn đề SECURITY RISK hoặc bị chặn Macro (như thông báo màu đỏ trong ảnh bạn chụp).
    - Sheet "MENU": Điền các thông tin lớp học (có sẵn menu thả xuống lấy từ sheet IDs).
    - Sheet "Thông tin hoc sinh": Điền thông tin học sinh (có thể copy/paste). Các sheet khác như DSTN, Bảng tổng hợp điểm... sẽ tự động nhảy dữ liệu nhờ công thức Excel.
 
